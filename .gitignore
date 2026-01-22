@@ -1,0 +1,69 @@
+# MATLAB generated files
+*.asv
+*.m~
+
+# Results directories
+results/
+**/results/
+Experiment*_*/
+**/Experiment*_*/
+
+# Output files
+*.png
+*.jpg
+*.jpeg
+*.fig
+*.eps
+*.pdf
+*.gif
+
+# Except dataset images
+!datasets/**/*.png
+!datasets/**/*.jpg
+!datasets/**/*.jpeg
+
+# Data files
+*.mat
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Compiled MEX files (optional - uncomment if you want to exclude)
+# *.mex*
+# *.mexa64
+# *.mexw64
+# *.mexw32
+# *.mexmaci64
+
+# Backup files
+*.bak
+*~
+
+# Archive files
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
